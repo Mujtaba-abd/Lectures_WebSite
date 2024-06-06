@@ -1,0 +1,23 @@
+*{
+    font-family: "Inter", sans-serif ;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --backgraond:#dde4eb;
+    --textcolor:#000F3F;
+    --sectextcolor:#044d61;
+}
+body{
+    background-color: var(--backgraond);
+    color: var(--textcolor);
+}
+header{
+    display: flex;
+    flex-direction: column;
+}
+a{
+    text-decoration: none;
+    color: var(--sectextcolor);
+}

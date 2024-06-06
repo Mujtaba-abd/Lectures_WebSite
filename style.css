@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 1.2rem;
 }
 :root{
     --backgraond:#dde4eb;
@@ -12,12 +13,41 @@
 body{
     background-color: var(--backgraond);
     color: var(--textcolor);
+    padding: 12px;
 }
-header{
+
+.github{
+        margin-top: 6px;
+}
+.header p{
+    margin-bottom: 20px;
+    margin-top: 16px;
+}
+
+.header h1{
+    margin-bottom: 12px;
+}
+
+.header{
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
+
 a{
     text-decoration: none;
     color: var(--sectextcolor);
+}
+
+main{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
 }

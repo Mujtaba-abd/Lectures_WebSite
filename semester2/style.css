@@ -74,3 +74,21 @@ h3{margin: 0px;}
 .btn:hover{
     transform: translateY(-4px);
 }
+
+/* Tablrt Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+    body{
+        width: 50%;
+    }
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+    body{
+        width: 960px;
+        margin: 0 auto;
+    }
+    .polite-card{
+    margin-left: 285px;
+    }
+}

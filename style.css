@@ -95,6 +95,5 @@ main{
   color: var(--colorp);
 }
 .btn:hover{
-    /* scale: 1.05; */
     transform: translateY(-4px);
 }

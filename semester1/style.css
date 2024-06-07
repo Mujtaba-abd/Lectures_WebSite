@@ -19,8 +19,6 @@
   --p: 18px/30px var(--ff);
   --p1: 24px/30px var(--ff);
   --p2: 36px/48px var(--ff);
-  --subtext: 12px/20px var(--ff);
-  --transition: 0.3s ease-in-out;
 }
 body {
   width: 90%;
@@ -28,6 +26,7 @@ body {
   max-width: 1080px;
   background-color: var(--colorbody);
   color: var(--colorp);
+  padding-top: 10px;
 }
 h1 {font: var(--h1);} h2 {font: var(--h2);} h3 {font: var(--h3);} p {font: var(--p);}
 
@@ -68,4 +67,9 @@ h3{margin: 0px;}
   transition: 0.2s ease-in-out;
   text-align: center;
   margin-top: 8px;
+  color: var(--colorp2);
+}
+
+.btn:hover{
+    transform: translateY(-4px);
 }

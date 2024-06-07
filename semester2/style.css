@@ -1,0 +1,76 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+:root{
+  --ff: "Montserrat", sans-serif;
+  --colorp: #f9f9f9;
+  --colorp2: #fff;
+  --colora: #ffe537;
+  --colora2: #537fe7;
+  --colorbody: #1e1e1e;
+  --colors: #333;
+  --h1: bold 54px/60px var(--ff);
+  --h2: bold 36px/48px var(--ff);
+  --h3: bold 24px/36px var(--ff);
+  --links: 18px/18px var(--ff);
+  --p: 18px/30px var(--ff);
+  --p1: 24px/30px var(--ff);
+  --p2: 36px/48px var(--ff);
+}
+body {
+  width: 90%;
+  margin: 20px auto;
+  max-width: 1080px;
+  background-color: var(--colorbody);
+  color: var(--colorp);
+  padding-top: 10px;
+}
+h1 {font: var(--h1);} h2 {font: var(--h2);} h3 {font: var(--h3);} p {font: var(--p);}
+
+
+
+/* Actual code */
+h3{margin: 0px;}
+
+
+
+.polite-card {
+  margin-top: 20px;
+  max-width: min(90vw, 400px);
+  display: flex;
+  flex-direction: column;
+  background: var(--colors);
+  border-radius: 8px;
+  overflow: hidden;
+}
+/* text & button */
+.css-card {
+  padding: 20px;
+}
+.polite-card img {
+  border-radius: 0px;
+  max-width: 600px;
+}
+
+.btn{
+  display: inline-block;
+  text-decoration: none;
+  display: inline-block;
+   background: linear-gradient(var(--colorbody), var(--colorbody)) padding-box,
+    linear-gradient(45deg, var(--colora) 0%, var(--colora2) 100%) border-box;
+  border: solid 2px transparent;
+  border-radius: 8px;
+  padding: 12px 24px;
+  transition: 0.2s ease-in-out;
+  text-align: center;
+  margin-top: 8px;
+  color: var(--colorp2);
+}
+
+.btn:hover{
+    transform: translateY(-4px);
+}

@@ -2,7 +2,7 @@
 
 ## What is this 
 
-it's the second version of a priveos website that have all the lectures of my collage first year.
+it's the second version of a priveos website that had all the lectures of my firset semester (first year) in collage.
 
 ## why I made it  
 
